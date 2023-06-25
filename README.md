@@ -12,7 +12,3 @@
     <img src="https://github.com/gcrajan/image/blob/main/twitter.png" width="50"/>
   </a>
 </div>
-
-
-<h1>About this site</h1>
-<h4>Feel free to use... just give me some credit😉</h4>
