@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0f5fee76.css",
+    "main.js": "/static/js/main.7be43026.js",
+    "static/media/logo.svg": "/static/media/logo.19e743cce9fb84ebc5b8ccc35c77c6f9.svg",
+    "static/media/saralsarkar.png": "/static/media/saralsarkar.7111fd7041262c18486c.png",
+    "static/media/shareall.png": "/static/media/shareall.c540ebf990bb10eae0e1.png",
+    "static/media/figma.png": "/static/media/figma.b08682c3a0753f59813f.png",
+    "static/media/voting.png": "/static/media/voting.3308adfb85bc6577dd57.png",
+    "static/media/wave.svg": "/static/media/wave.eb716a9fdf3622a16ca4050af7a8b953.svg",
+    "static/media/solidity.png": "/static/media/solidity.06808f410939942492fe.png",
+    "static/media/bgImage.svg": "/static/media/bgImage.486105760156d127a5eaf25be0e64c4f.svg",
+    "static/media/js.png": "/static/media/js.062825dbceed44567e91.png",
+    "static/media/illustrator.png": "/static/media/illustrator.6aae703108b5d273f006.png",
+    "static/media/smartcontract.png": "/static/media/smartcontract.a9e603f78ce9bfd12a31.png",
+    "static/media/react.png": "/static/media/react.1d6eec58324595de4e76.png",
+    "static/media/hardhat-removebg-preview.png": "/static/media/hardhat-removebg-preview.460e0bec54ace7ac0e3b.png",
+    "static/media/LEFT.png": "/static/media/LEFT.8b79225aeeecbcf7195a.png",
+    "static/media/logo.png": "/static/media/logo.0fd16db2fdbcb6809d03.png",
+    "static/media/right.png": "/static/media/right.7eac053655a39a766de4.png",
+    "index.html": "/index.html",
+    "static/media/lightpurple.svg": "/static/media/lightpurple.a7163bab70751085b9e9ade7f11196c8.svg",
+    "static/media/purple.svg": "/static/media/purple.21c82cc53fa8ba3d122b9adea92decdd.svg",
+    "main.0f5fee76.css.map": "/static/css/main.0f5fee76.css.map",
+    "main.7be43026.js.map": "/static/js/main.7be43026.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f5fee76.css",
+    "static/js/main.7be43026.js"
+  ]
+}
