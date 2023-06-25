@@ -1,0 +1,149 @@
+{
+    "projects":[
+        {
+            "id":1,
+            "title":"FoodKhoj",
+            "category":"React",
+            "description":"You can search for your fav food receipe. All the data is call from api.",
+            "imgSrc":"https://raw.githubusercontent.com/gcrajan/image/d6cca16d52879e714a41b5a55d9afc2d42ad4009/foodkhoj.svg",
+            "codeUrl":"https://github.com/gcrajan/foodkhoj",
+            "demoUrl":"https://gcrajan-foodkhoj.netlify.app/"
+        },
+        {
+            "id":2,
+            "title":"Notes",
+            "category":"React",
+            "description":"You can take notes here. Data are store in local storage.",
+            "imgSrc":"https://raw.githubusercontent.com/gcrajan/image/91cc17f26123ef472957dff2e54c651ae66da011/notes.svg",
+            "codeUrl":"https://github.com/gcrajan/notes-reactApp",
+            "demoUrl":"https://gcrajan-note-react.netlify.app/"
+        },
+        {
+            "id":3,
+            "title":"TouristDestination",
+            "category":"React",
+            "description":"You will see all the toursit destination places that are store in the file.",
+            "imgSrc":"https://raw.githubusercontent.com/gcrajan/image/78c46313e8dd8d4148e1317934f04695dd2bd3fd/touristdestination.svg",
+            "codeUrl":"https://github.com/gcrajan/touristdestinations",
+            "demoUrl":"https://touristdestinations.netlify.app/"
+        },
+        {
+            "id":4,
+            "title":"Quotes Generate",
+            "category":"React",
+            "description":"You can generate the quotes by selecting the number of quotes to generate.",
+            "imgSrc":"https://raw.githubusercontent.com/gcrajan/image/3fe8fdd7b6bd3c5eb1b3ed30fe77e0c29474aa00/quotes.svg",
+            "codeUrl":"https://github.com/gcrajan/react-quotes",
+            "demoUrl":"https://gcrajan-quote.netlify.app/"
+        },
+        {
+            "id":5,
+            "title":"Enter, Copy, Paste",
+            "category":"React",
+            "description":"You can enter anything inside the div. Than can copy that texts by single click.",
+            "imgSrc":"https://raw.githubusercontent.com/gcrajan/image/207ecf5c706d82a4b8fe381d91e43c9c2f385b9f/entercopypaste.svg",
+            "codeUrl":"https://github.com/gcrajan/react-entercopypaste",
+            "demoUrl":"https://gcrajan-entercopypaste.netlify.app/"
+        },
+        {
+            "id":6,
+            "title":"Kantipur Bank",
+            "category":"JS",
+            "description":"There is id and password. Here, I learn about array in js(filter,map,etc.).",
+            "imgSrc":"https://raw.githubusercontent.com/gcrajan/image/ce22b73a93b61971c143544dffc1ee58c45bd6d6/bank.svg",
+            "codeUrl":"https://github.com/gcrajan/bankArray",
+            "demoUrl":"https://gcrajan-kantipurbank.netlify.app/"
+        },
+        {
+            "id":7,
+            "title":"Flip Book site",
+            "category":"JS",
+            "description":"This my unique try to make personal site by the use of flip-book.",
+            "imgSrc":"https://raw.githubusercontent.com/gcrajan/image/08b8acf5fab722dbd786424a64a3bfe9d028c072/flipbook.svg",
+            "codeUrl":"https://github.com/gcrajan/react-quotes",
+            "demoUrl":"https://gcrajan-quote.netlify.app/"
+        },
+        {
+            "id":8,
+            "title":"Nation Info",
+            "category":"JS",
+            "description":"Data fetch from API. You can search the info about the nation.",
+            "imgSrc":"https://raw.githubusercontent.com/gcrajan/image/dc396022612ec13490dfa6cfee5d9d2e75236b26/nationinfo.svg",
+            "codeUrl":"/",
+            "demoUrl":"https://gcrajan-countryinfo-api.netlify.app/"
+        },
+        {
+            "id":9,
+            "title":"Birthday Countdown",
+            "category":"JS",
+            "description":"You can generate the quotes by selecting the number of quotes to generate.",
+            "imgSrc":"https://raw.githubusercontent.com/gcrajan/image/811d11d662ecf69f419c04902b0533103ad3fff3/birthday-countdown.svg",
+            "codeUrl":"https://github.com/gcrajan/birthdayCountdownTimer",
+            "demoUrl":"https://gcrajan-birthdaycountdown.netlify.app/"
+        },
+        {
+            "id":10,
+            "title":"To-Do-List",
+            "category":"JS",
+            "description":"Use of local storage. You can keep your list on init. We got you.",
+            "imgSrc":"https://raw.githubusercontent.com/gcrajan/image/54eb77a5ef42f26d58a7ef71f0fa1335b1524bff/to-do.svg",
+            "codeUrl":"https://github.com/gcrajan/note",
+            "demoUrl":"https://gcrajan-note.netlify.app/"
+        },
+        {
+            "id":11,
+            "title":"Guess the Number",
+            "category":"JS",
+            "description":"This simple guessing number game made with js.",
+            "imgSrc":"https://raw.githubusercontent.com/gcrajan/image/6c8adfae93ef48fd231907df3fe700f3f10fa3f4/guessthenumber.svg",
+            "codeUrl":"https://github.com/gcrajan/games/tree/01b6022a8e56a4f053eff776c42c353081cdef22/guessNumber",
+            "demoUrl":"https://gcrajan-game-numberguess.netlify.app/"
+        },
+        {
+            "id":12,
+            "title":"Rock Paper Scissor",
+            "category":"JS",
+            "description":"This game need no introduction. Just a game of our childhood.",
+            "imgSrc":"https://raw.githubusercontent.com/gcrajan/image/391033ef0b81f9ba4f2d564b6e127161f179b077/rockpaperscissor.svg",
+            "codeUrl":"https://github.com/gcrajan/Rock-Paper-Scissors",
+            "demoUrl":"https://gcrajan-game-rockpaper.netlify.app/"
+        },
+        {
+            "id":13,
+            "title":"Khajaghar",
+            "category":"HTML",
+            "description":"This is my first website created using html and css.",
+            "imgSrc":"https://raw.githubusercontent.com/gcrajan/image/362682bffc63db6be8422165e90d3a80f4c2444d/khajaghar.svg",
+            "codeUrl":"https://github.com/gcrajan/Responsive-food-website",
+            "demoUrl":"https://gcrajan-simplekhajaghar.netlify.app/"
+        },
+        {
+            "id":14,
+            "title":"Sujan Personal Website",
+            "category":"Design",
+            "description":"Creating a design for my friend Sujan in figma.",
+            "imgSrc":"https://raw.githubusercontent.com/gcrajan/image/5c843f4623734d2ddedd2fb62ac82a04055aa182/sujanpersonalsite.svg",
+            "codeUrl":"https://www.figma.com/file/whKDdk0Kcde88PhmoMKWFA/Sujan-website?type=design&node-id=0-1&mode=design&t=Dhme6n833DcjR45t-0",
+            "demoUrl":"https://www.figma.com/file/whKDdk0Kcde88PhmoMKWFA/Sujan-website?type=design&node-id=0-1&mode=design&t=Dhme6n833DcjR45t-0"
+        },
+        {
+            "id":15,
+            "title":"Kushal Website",
+            "category":"Design",
+            "description":"Exploring the designing process with figma. This was on my learning phase.",
+            "imgSrc":"https://raw.githubusercontent.com/gcrajan/image/03685272103990d4f3b424be0c258ea80c642949/kushalsite.svg",
+            "codeUrl":"https://www.figma.com/file/HsK8kGnaWWi0dIHCwTLBc8/Website?type=design&node-id=0%3A1&mode=design&t=ayKT5QWLnUD9XUwU-1",
+            "demoUrl":"https://www.figma.com/file/HsK8kGnaWWi0dIHCwTLBc8/Website?type=design&node-id=0%3A1&mode=design&t=ayKT5QWLnUD9XUwU-1"
+        },
+        {
+            "id":16,
+            "title":"Main project",
+            "category":"Design",
+            "description":"This was my pre-process design of my project ShareAll and Voting app.",
+            "imgSrc":"https://raw.githubusercontent.com/gcrajan/image/906c4ac39abe41dbd1ca28724ec0c6edc138f381/mainproject.svg",
+            "codeUrl":"https://www.figma.com/file/hb8g2nkJMZWsBWsRd6hEM6/shareAll?type=design&node-id=0%3A1&mode=design&t=xlPPLifvODSo806q-1",
+            "demoUrl":"https://www.figma.com/file/hb8g2nkJMZWsBWsRd6hEM6/shareAll?type=design&node-id=0%3A1&mode=design&t=xlPPLifvODSo806q-1"
+        }
+        
+    ]
+}

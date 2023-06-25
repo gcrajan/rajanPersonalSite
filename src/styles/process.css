@@ -1,0 +1,56 @@
+.process{
+  padding: 0rem 5rem;
+  margin-bottom: 5rem;
+  position: relative;
+}
+.processFilling{
+  display: none;
+}
+.processInfo{
+  display: flex;
+  justify-content: space-between;
+  gap: 8rem;
+  align-items: center;
+}
+.processInfoImg{
+  width: 30rem;
+}
+.processInfoDiv div{
+  position: relative;
+}
+.processInfoDiv div h2{
+  font-family: var(--main-font-family);
+  margin-bottom: 0.4rem;
+}
+.processInfoDiv div h1{
+  position: absolute;
+  font-size: 4rem;
+  top: -2rem;
+  left: -2rem;
+  z-index: -1;
+  color: #6c63ff5e;
+}
+.two{
+  margin: 3rem 0rem;
+}
+.purple{
+  position: absolute;
+  width: 5rem;
+  top: 15rem;
+  left: 4rem;
+  z-index: -1;
+}
+.lightpurple1{
+  position: absolute;
+  width: 6rem;
+  top: 0rem;
+  right: 5rem;
+  z-index: -1;
+}
+.lightpurple2{
+  position: absolute;
+  width: 6rem;
+  top: 24rem;
+  right: 1rem;
+  z-index: -1;
+}

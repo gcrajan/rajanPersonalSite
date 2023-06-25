@@ -1,0 +1,108 @@
+#contact{
+    position: relative;
+    margin-top: 2rem;
+}
+.topWave img{
+    width: 100%;
+}
+.contactDiv{
+    /* background-color: transparent;
+    background-image: linear-gradient(94.77deg,#4529C7 -5.86%,#9854FF 79.04%); */
+    position: absolute;
+    top: 35%;
+    left: 31%;
+    width: 40%;
+    border: 2px solid white;
+    padding: 2rem;
+    border-radius: 1.5rem;
+}
+.contactDiv form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--main-font-family);
+    font-size: 1.5rem;
+    color: white;
+}
+.contactDiv form input{
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+    margin: 1rem;
+    text-align: center;
+}
+#btnContact{
+    border: 1px solid white;
+    padding: 0.5rem 2.2rem;
+    text-decoration: none;
+    color: var(--primaryColor);
+    font-size: 1.25rem;
+    background-color: white;
+    margin-top: 1.3rem;
+    border-radius: 0.2rem;
+}
+#btnContact:hover{
+    border: 1px solid var(--primaryColor);
+    color: white;
+    background-color: var(--primaryColor);
+}
+.contactTitle{
+    position: absolute;
+    top: 8rem;
+    left: 5rem;
+    margin-bottom: 6rem;
+}
+.contactTitle h3{
+    color: white;
+    font-family: "Open Sans",Sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 32px;
+    margin: 1rem 0rem;
+}
+.contactTitle div{
+    width: 70%;
+}
+.contactTitle div h2{
+    font-family: var(--main-font-family);
+    color: wheat;
+    font-size: 33px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 40px;
+    margin-bottom: 0.5rem;
+}
+.contactTitle div p{
+    text-align: left;
+    color: #e9d7b7;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 26px;
+}
+.contactSocialMedia{
+    position: absolute;
+    right: 10rem;
+    top: 12.5rem;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.contactSocialMedia a img{
+    width: 2.5rem;
+    transition: width 0.5s;
+}
+.contactSocialMedia a img:hover{
+    width: 2rem;
+}
+.disableBtn{
+    background-color: #9f90c3 !important;
+    color: #d8d7db !important;
+    cursor: not-allowed;
+}

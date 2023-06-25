@@ -1,0 +1,123 @@
+ nav {
+    height: 5rem;
+    border-bottom:1px solid var(--primarylightColor);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1px;
+    position: sticky;
+    top: 0%;
+    z-index: 60;
+    background-color: #f0f4ff;
+    padding: 0rem 5rem;
+}
+
+nav > h2 {
+    font-size: 2rem;
+    color: var(--textDarkColor);
+}
+nav > div {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+nav > div a {
+    color: var(--textDarkColor);
+    font-weight: 600;
+    transition: all 0.3s;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+nav > div a:hover {
+    color: var(--primaryColor);
+}
+nav > a > button {
+    border: 1px solid var(--textDarkColor);
+    padding: 0.5rem 2rem;
+    background-color: transparent;
+    cursor: pointer;
+    color: var(--textDarkColor);
+    letter-spacing: 1px;
+    font-weight: 500;
+    transition: all 0.3s;
+}
+nav > a > button:hover {
+    border: 1px solid var(--primaryColor);
+    background-color: var(--primaryColor);
+    color: white;
+}
+
+/* ----------- phone --------- */
+
+.navBtn {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+    color: black;
+    font-size: 1.4rem;
+    z-index: 150;
+    position: fixed;
+    top: 0.75rem;
+    right: 2rem;
+    display: none;
+    cursor: pointer;
+}
+
+.navPhone {
+    transition: all 0.5s;
+    transform: translateY(-200%);
+    width: 100%;
+    height: 100vh;
+    background-color: #b1c6e8;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    padding: 2rem 0rem;
+}
+.navPhone > h2 {
+    font-size: 2rem;
+    color: var(--primaryColor);
+    margin: -3rem 0rem 1rem 0rem;
+}
+.navPhone > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.navPhone > div a {
+    color: black;
+    letter-spacing: 1px;
+    font-weight: 500;
+    transition: all 0.3s;
+    text-decoration: none;
+    font-size: 1.1rem;
+    margin: 0.5rem 0rem;
+    padding: 1rem 0rem;
+}
+.navPhone > div a:hover {
+    color: white;
+}
+.navPhone > a > button {
+    border: 1px solid var(--primaryColor);
+    padding: 0.5rem 2rem;
+    background-color: white;
+    cursor: pointer;
+    color: var(--primaryColor);
+    letter-spacing: 1px;
+    font-weight: 500;
+    transition: 0.5s;
+}
+.navPhone > a > button:hover {
+    background-color: var(--primaryColor);
+    color: white;
+}
+.navPhoneComes {
+    transform: translateY(0);
+}

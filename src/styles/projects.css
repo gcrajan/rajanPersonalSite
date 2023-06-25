@@ -1,0 +1,149 @@
+#projects{
+    position: relative;
+    margin: 0rem 5rem;
+}
+.projects-img{
+    position: absolute;
+    right: -5rem;
+    top: -5rem;
+    height: 25rem;
+}
+.slide p{
+    font-family: var(--main-font-family);
+}
+.aDivLink{
+    text-decoration: none;
+    color: white;
+    background-color: var(--secondaryColor);
+    padding: 1px 5px;
+}
+
+
+.swiper {
+    width: 100%;
+  }
+  
+  .swiper-slide {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    width: 60%;
+    object-fit: cover;
+}
+.swiper-slide div h1{
+    color: #9854FF;
+    font-family: "Open Sans",Sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 32px;
+}
+.swiper-slide div h2{
+    color: #221F30;
+    font-family: var(--main-font-family);
+    font-size: 30px;
+    font-weight: 700;
+    margin: 1rem 0rem;
+}
+.swiper-slide div p{
+    margin-bottom: 2.5rem;
+}
+.swiper-slide div h4 a{
+    text-decoration: none;
+}
+
+.reverseTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.reverseTitle div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.reverseTitle div p{
+    text-align: end !important;
+}
+.projectShowCase{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.otherProjectDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+    background: #e1d6ff;
+    width: 30%;
+    position: relative;
+    box-shadow: var(--lightShadow);
+    margin-bottom: 3rem;
+}
+.otherProjectDiv:hover{
+    box-shadow: var(--darkShadow);
+}
+.categoryProject{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: var(--secondaryColor);
+    padding: 0.5rem 1rem;
+}
+.otherProjectDiv div{
+    overflow: hidden;
+}
+.otherProjectDiv div img{
+    width: 100%;
+    height: 14rem;
+    object-fit: cover;
+    border-radius: 1rem 1rem 0rem 0rem;
+    transition: transform .2s; 
+}
+.otherProjectDiv div img:hover{
+    transform: scale(1.3);
+}
+.projectTopic{
+    display: flex;
+    justify-content: space-evenly;
+    margin: -3rem 0rem 3rem 0rem;
+}
+.projectInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    font-family: var(--main-font-family);
+}
+
+.projectInfo h2{
+    font-size: 1.3rem;
+}
+.projectInfo p{
+    min-height: 2.5rem;
+    font-size: 0.9rem;
+    margin: 0.2rem 0rem;
+    text-align: center;
+}
+.projectInfo a{
+    font-weight: 600;
+    text-decoration: none;
+    padding: 0.3rem;
+    color: #4a00ff;
+}
+.projectInfo a:hover{
+    background-color: #d2c1ff;
+    border-radius: 5px;
+}
+.projectInfo a:hover{
+    color: var(--primaryColor);
+}
