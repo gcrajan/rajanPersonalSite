@@ -2,19 +2,19 @@
     position: relative;
     margin-top: 2rem;
 }
+.hiddenDiv{
+    display: none;
+}
 .topWave img{
     width: 100%;
 }
 .contactDiv{
-    /* background-color: transparent;
-    background-image: linear-gradient(94.77deg,#4529C7 -5.86%,#9854FF 79.04%); */
     position: absolute;
-    top: 35%;
-    left: 31%;
-    width: 40%;
-    border: 2px solid white;
-    padding: 2rem;
-    border-radius: 1.5rem;
+    width: 50%;
+    padding-top: 2rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .contactDiv form{
     display: flex;
@@ -25,13 +25,16 @@
     font-size: 1.5rem;
     color: white;
 }
+.contactDiv form h2{
+    margin: 4rem 0rem 1.5rem 0rem;
+}
 .contactDiv form input{
     width: 100%;
     font-size: 1rem;
-    padding: 0.5rem;
+    padding: 0.6rem 0.5rem;
     border: none;
     outline: none;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     margin: 1rem;
     text-align: center;
 }
@@ -57,7 +60,7 @@
     margin-bottom: 6rem;
 }
 .contactTitle h3{
-    color: white;
+    color: #dfdbff;
     font-family: "Open Sans",Sans-serif;
     font-size: 16px;
     font-weight: 700;
@@ -71,7 +74,7 @@
 }
 .contactTitle div h2{
     font-family: var(--main-font-family);
-    color: wheat;
+    color: white;
     font-size: 33px;
     font-weight: 700;
     font-style: normal;
@@ -80,7 +83,7 @@
 }
 .contactTitle div p{
     text-align: left;
-    color: #e9d7b7;
+    color: white;
     font-size: 16px;
     font-weight: 400;
     font-style: normal;

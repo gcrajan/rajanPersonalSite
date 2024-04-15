@@ -2,6 +2,15 @@
     "projects":[
         {
             "id":1,
+            "title":"Online Store",
+            "category":"Nextjs",
+            "description":"This is shopping site made with nextjs as an assignment.",
+            "imgSrc":"https://github.com/gcrajan/image/blob/main/onlineStore.png?raw=true",
+            "codeUrl":"https://github.com/gcrajan/frontend-nextjs-assignment",
+            "demoUrl":"https://frontend-assignment-peach.vercel.app/"
+        },
+        {
+            "id":2,
             "title":"FoodKhoj",
             "category":"React",
             "description":"You can search for your fav food receipe. All the data is call from api.",
@@ -10,7 +19,7 @@
             "demoUrl":"https://gcrajan-foodkhoj.netlify.app/"
         },
         {
-            "id":2,
+            "id":3,
             "title":"Notes",
             "category":"React",
             "description":"You can take notes here. Data are store in local storage.",
@@ -19,7 +28,7 @@
             "demoUrl":"https://gcrajan-note-react.netlify.app/"
         },
         {
-            "id":3,
+            "id":4,
             "title":"TouristDestination",
             "category":"React",
             "description":"You will see all the toursit destination places that are store in the file.",
@@ -28,7 +37,7 @@
             "demoUrl":"https://touristdestinations.netlify.app/"
         },
         {
-            "id":4,
+            "id":5,
             "title":"Quotes Generate",
             "category":"React",
             "description":"You can generate the quotes by selecting the number of quotes to generate.",
@@ -37,7 +46,7 @@
             "demoUrl":"https://gcrajan-quote.netlify.app/"
         },
         {
-            "id":5,
+            "id":6,
             "title":"Enter, Copy, Paste",
             "category":"React",
             "description":"You can enter anything inside the div. Than can copy that texts by single click.",
@@ -46,7 +55,7 @@
             "demoUrl":"https://gcrajan-entercopypaste.netlify.app/"
         },
         {
-            "id":6,
+            "id":7,
             "title":"Kantipur Bank",
             "category":"JS",
             "description":"There is id and password. Here, I learn about array in js(filter,map,etc.).",
@@ -55,16 +64,16 @@
             "demoUrl":"https://gcrajan-kantipurbank.netlify.app/"
         },
         {
-            "id":7,
+            "id":8,
             "title":"Flip Book site",
             "category":"JS",
             "description":"This my unique try to make personal site by the use of flip-book.",
             "imgSrc":"https://raw.githubusercontent.com/gcrajan/image/08b8acf5fab722dbd786424a64a3bfe9d028c072/flipbook.svg",
-            "codeUrl":"https://github.com/gcrajan/react-quotes",
-            "demoUrl":"https://gcrajan-quote.netlify.app/"
+            "codeUrl":"https://flip-book-site.netlify.app/",
+            "demoUrl":"https://flip-book-site.netlify.app/"
         },
         {
-            "id":8,
+            "id":9,
             "title":"Nation Info",
             "category":"JS",
             "description":"Data fetch from API. You can search the info about the nation.",
@@ -73,22 +82,13 @@
             "demoUrl":"https://gcrajan-countryinfo-api.netlify.app/"
         },
         {
-            "id":9,
+            "id":10,
             "title":"Birthday Countdown",
             "category":"JS",
             "description":"You can generate the quotes by selecting the number of quotes to generate.",
             "imgSrc":"https://raw.githubusercontent.com/gcrajan/image/811d11d662ecf69f419c04902b0533103ad3fff3/birthday-countdown.svg",
             "codeUrl":"https://github.com/gcrajan/birthdayCountdownTimer",
             "demoUrl":"https://gcrajan-birthdaycountdown.netlify.app/"
-        },
-        {
-            "id":10,
-            "title":"To-Do-List",
-            "category":"JS",
-            "description":"Use of local storage. You can keep your list on init. We got you.",
-            "imgSrc":"https://raw.githubusercontent.com/gcrajan/image/54eb77a5ef42f26d58a7ef71f0fa1335b1524bff/to-do.svg",
-            "codeUrl":"https://github.com/gcrajan/note",
-            "demoUrl":"https://gcrajan-note.netlify.app/"
         },
         {
             "id":11,
@@ -110,12 +110,12 @@
         },
         {
             "id":13,
-            "title":"Khajaghar",
-            "category":"HTML",
-            "description":"This is my first website created using html and css.",
-            "imgSrc":"https://raw.githubusercontent.com/gcrajan/image/362682bffc63db6be8422165e90d3a80f4c2444d/khajaghar.svg",
-            "codeUrl":"https://github.com/gcrajan/Responsive-food-website",
-            "demoUrl":"https://gcrajan-simplekhajaghar.netlify.app/"
+            "title":"To-Do-List",
+            "category":"JS",
+            "description":"Use of local storage. You can keep your list on init. We got you.",
+            "imgSrc":"https://raw.githubusercontent.com/gcrajan/image/54eb77a5ef42f26d58a7ef71f0fa1335b1524bff/to-do.svg",
+            "codeUrl":"https://github.com/gcrajan/note",
+            "demoUrl":"https://gcrajan-note.netlify.app/"
         },
         {
             "id":14,

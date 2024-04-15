@@ -41,6 +41,35 @@ position: absolute;
     text-align: center;
     width: 60%;
 }
+.footerInfo p a{
+    text-decoration: none;
+}
+.developer-info{
+    display: flex;
+    gap:5rem;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+.developer-info div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 15rem;
+}
+.developer-name{
+    margin-top: 1rem;
+}
+.developer-name p{
+    margin-top: 0.5rem;
+}
+.developer-info div img{
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+    border: 2px solid gainsboro;
+    object-fit: cover;
+}
 .footerEnd{
     display: flex;
     justify-content: space-between;

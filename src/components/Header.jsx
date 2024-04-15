@@ -1,22 +1,18 @@
-import React,{useState} from "react";
+import React from "react";
 import "../styles/header.css"
 import hamburger from "../images/hamburger.png";
 import close from "../images/close.png";
 
 const Header = ({ setMenuOpen, menuOpen }) => {
-    const [image,setImage]=useState(true);
-    function changeIcon(){
-        setMenuOpen(!menuOpen);
-        setImage(!image);
-    }
+
 return (
     <>
     <nav>
         <NavContent setMenuOpen={setMenuOpen} />
     </nav>
 
-    <button className="navBtn" onClick={changeIcon}>
-        <img src={image==true?hamburger:close} alt="phoneicon"/>
+    <button className="navBtn" onClick={() => setMenuOpen(!menuOpen)}>
+        <img src={menuOpen===false?hamburger:close} alt="phoneicon"/>
     </button>
     </>
 );
@@ -32,7 +28,9 @@ return (
 
 const NavContent = ({ setMenuOpen }) => (
 <>
-    <h2>Rajan.</h2>
+    <a href="#home" style={{ textDecoration: "none", color:"black" }}>
+        <h1>Rajan.</h1>
+    </a>
     <div>
     <a onClick={() => setMenuOpen(false)} href="#home">
         Home
@@ -46,10 +44,10 @@ const NavContent = ({ setMenuOpen }) => (
     <a onClick={() => setMenuOpen(false)} href="#contact">
         Contact
     </a>
-    </div>
-    <a href="https://github.com/gcrajan/file/blob/main/RajanGC%5BCV%5D.pdf">
+    </div><a href="https://gcrajan.netlify.app/" target="_blank" rel="noreferrer">
     <button>My CV</button>
     </a>
+    
 </>
 );
 

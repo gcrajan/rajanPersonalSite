@@ -84,6 +84,7 @@ function Contact(){
 
     return(
         <section id="contact">
+          <section className='hiddenDiv'></section>
             <section className='topWave'>
             <img src={wave} alt="wave" />
             </section>
@@ -97,8 +98,8 @@ function Contact(){
             </section>
 
             <motion.section className='contactSocialMedia' whileInView={animations.whileInView} initial={animations.section} transition={{  delay: 0.5,}}>
-                <a href="https://www.linkedin.com/in/rajan-g-c-69a690199/" target='_blank'><img src={linkedin} alt="linkedin" /></a>
-                <a href="https://twitter.com/iamgcrajan" target='_blank'><img src={twitter} alt="twitter" /></a>
+                <a href="https://www.linkedin.com/in/rajan-g-c-69a690199/" target='_blank' rel="noreferrer"><img src={linkedin} alt="linkedin" /></a>
+                <a href="https://twitter.com/iamgcrajan" target='_blank' rel="noreferrer"><img src={twitter} alt="twitter" /></a>
             </motion.section>
 
             <section className='contactDiv'>

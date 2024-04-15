@@ -84,7 +84,7 @@ function Skills (){
                     <motion.div className='skillsDiv' whileInView={animations.whileInView} initial={animations.div2}>
                         <div className='skillsDivTitle'>
                             <img src={frontend} alt="frontend" />
-                            <p>Frontend</p>
+                            <p>Developer</p>
                         </div>
                         <div className='skillsDivInfo'>
                             <p>I love to play with the frontend. And the joy of pushing it to its limit.</p>

@@ -46,7 +46,7 @@ function Home(){
 
                 <Typewriter
                     options={{
-                    strings: ["A frontend developer,", "A website designer,", "A blockchain learner."],
+                    strings: ["A website designer,", "A software developer,", "A devops engineer,", "A blockchain learner."],
                     autoStart: true,
                     loop: true,
                     cursor: "",

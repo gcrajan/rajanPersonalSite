@@ -32,7 +32,7 @@ function Process(){
 
       <img src={filling} alt="filling" className='processFilling'/>
 
-      <section className="title reverseTitle" id="allproject">
+      <section className="title reverseTitle">
         <motion.h3 whileInView={animations.whileInView} initial={animations.h3}>
           MY PROCESS
         </motion.h3>

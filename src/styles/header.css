@@ -1,11 +1,11 @@
- nav {
+nav {
     height: 5rem;
-    border-bottom:1px solid var(--primarylightColor);
+    border-bottom: 1px solid var(--primarylightColor);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 1px;
-    position: sticky;
+    width: 100%;
+    position: fixed;
     top: 0%;
     z-index: 60;
     background-color: #f0f4ff;
